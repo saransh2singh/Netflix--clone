@@ -1,0 +1,55 @@
+.footer{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    margin: auto;
+    width: 70%;
+}
+.gray{
+    background-color: rgb(35,35,35);
+    min-height: 10px;
+    margin-top: 100px;
+}
+.color{
+    color:rgba(255, 255, 255, 0.7);
+    padding-bottom: 2em;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foot-links{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.8em;
+}
+
+
+.foot-links:hover,.underline{
+    text-decoration: underline;
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+.underline:hover{
+    color:white
+}
+.direction{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+    margin-right: 35px;
+}
+.pad--bottom{
+    padding-bottom: 3em;
+    text-decoration: none;
+}
+.netflix{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+.netflix:hover{
+    color: white;
+}
